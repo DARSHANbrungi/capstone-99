@@ -1,0 +1,41 @@
+# =================================================================
+# === Datasets ===
+# Ignore the raw and processed data folders as requested.
+# This keeps your repository lightweight.
+data/raw/
+data/processed/
+
+# =================================================================
+# === Python Backend ===
+# Ignore Python cache files and virtual environments
+__pycache__/
+*.pyc
+venv/
+env/
+.venv/
+
+# Ignore generated artifacts like logs and trained models
+logs/
+saved_models/
+
+# =================================================================
+# === Frontend (React) ===
+# Ignore the massive node_modules folder as requested.
+# Anyone who clones the project can regenerate this with 'npm install'.
+frontend/node_modules/
+
+# Ignore the production build folder, which is also generated.
+frontend/build/
+
+# Ignore other common Node.js files
+frontend/.pnp.js
+
+# =================================================================
+# === General ===
+# Ignore IDE and OS-specific files
+.vscode/
+.idea/
+.DS_Store
+
+# Ignore environment variable files which may contain sensitive info
+.env

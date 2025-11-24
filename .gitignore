@@ -1,0 +1,89 @@
+--- Python Specific ---
+
+pycache/
+*.py[cod]
+*.egg-info/
+*.egg
+.env
+venv/
+env/
+
+--- Jupyter Notebook ---
+
+.ipynb_checkpoints/
+*.ipynb
+
+--- Project Specific Folders ---
+
+Ignore all log files and saved models
+
+logs/
+saved_models/
+
+--- Data Files ---
+
+Ignore large data files in the root and within project folders
+
+*.csv
+*.data
+*.db
+*.sqlite3
+
+Specific large files
+
+final_combined_dataset.csv
+data.csv
+
+Ignore data folders if you don't want to track any data
+
+data/
+
+--- Frontend (React) Specific ---
+
+frontend/node_modules/
+frontend/build/
+frontend/.pnp
+frontend/.pnp.js
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+--- Installers ---
+
+*.sh
+*.exe
+*.dmg
+
+--- OS Specific ---
+
+.DS_Store
+Thumbs.db
+._*
+
+--- Monitoring ---
+
+prometheus/
+grafana*/
+frontend/
+
+--- Large Files ---
+
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.rar
+*.gz
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.mp3
+*.wav
+*.iso
+*.jar
+*.csv

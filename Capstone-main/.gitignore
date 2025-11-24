@@ -1,0 +1,10 @@
+.venv/
+**/*.csv
+
+__pycache__/
+
+clumsy/
+
+dataset/
+
+pico-bmp280/
